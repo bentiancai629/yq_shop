@@ -10,7 +10,7 @@ import (
 
 func main() {
 	orm.RegisterDriver("mysql", orm.DRMySQL)
-	orm.RegisterDataBase("default", "mysql", "root:lucheng@tcp(127.0.0.1:3306)/yq_shop?charset=utf8")
+	orm.RegisterDataBase("default", "mysql", "root:feng629@tcp(118.25.35.217:3306)/yq_shop?charset=utf8")
 
 	//注册静态文件(图片等)上传下载目录
 	beego.SetStaticPath("/upload", "upload")
